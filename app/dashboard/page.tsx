@@ -134,7 +134,7 @@ export default function DashboardPage() {
       } else {
         setError(data.message || "Failed to upload resume")
       }
-    } catch (err) {
+    } catch {
       setError("Network error. Please try again.")
     } finally {
       setLoading(false)
@@ -171,7 +171,7 @@ export default function DashboardPage() {
       } else {
         setError(data.message || "Search failed")
       }
-    } catch (err) {
+    } catch{
       setError("Network error. Please try again.")
     } finally {
       setSearching(false)

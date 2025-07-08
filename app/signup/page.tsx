@@ -59,7 +59,7 @@ export default function SignupPage() {
       else{
         alert("Error!")
       }
-    } catch (err) {
+    } catch {
       setError("Network error. Please try again.");
     } finally {
       setLoading(false);
