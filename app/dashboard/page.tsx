@@ -4,8 +4,8 @@ import type React from "react"
 
 import { useState, useEffect } from "react"
 import { useRouter } from "next/navigation"
-import parseResumeData from '@/utils/responseToJson'
-import { Button } from "@/components/ui/button"
+import parseResumeData from '../../utils/responseToJson.js'
+import { Button } from "../../components/ui/button.jsx"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
